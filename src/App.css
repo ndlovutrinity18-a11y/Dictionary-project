@@ -1,6 +1,56 @@
 header{
     font-family: 'Roboto', sans-serif;
-    background-color: #f8f8f8;
-    padding: 20px;
     text-align: center;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background: radial-gradient(circle at 10% 20%, rgb(222, 168, 248) 0%, rgb(168, 222, 248) 21.8%, rgb(189, 250, 205) 35.6%, rgb(243, 250, 189) 52.9%, rgb(250, 227, 189) 66.8%, rgb(248, 172, 172) 90%, rgb(254, 211, 252) 99.7%);
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+.App {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+   background: radial-gradient(circle at 10% 20%, rgb(222, 168, 248) 0%, rgb(168, 222, 248) 21.8%, rgb(189, 250, 205) 35.6%, rgb(243, 250, 189) 52.9%, rgb(250, 227, 189) 66.8%, rgb(248, 172, 172) 90%, rgb(254, 211, 252) 99.7%);
+}
+section{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+}
+.hint{
+    opacity:0.5;
+    font-size: 12px;
+    font-style: oblique;
+}
+form{
+    display: flex;
+    gap:20px;
+}
+button{
+    background: #ffffff;
+    border: 1px solid;
+    opacity:0.5;
+}
+h4{
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+li{
+    font-size: 18px;
+    line-height: 1.5;
+    display: inline-block;
+    padding-right: 15px;
+}
+footer{
+    font-size: 14px;
+    font-style:initial;
+    text-align: center;
+    color: #383333;
 }

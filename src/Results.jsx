@@ -6,15 +6,19 @@ export default function Results(props){
     if(props.results){
         return (
             <div className="Results">
-                <h2>{props.results.word}</h2>
+                <section>
+                <h2 className="text-capitalize">{props.results.word}</h2>
                 <h4>Phonetic:<em>{props.results.phonetic}</em></h4>
                 {props.results.meanings.map(function(meaning, index){
                     return (
                     <div key={index}>
+                        
                         <Meaning meanings={meaning} />
                          </div>
+
                     );
                 })}
+                </section>
             </div>
         );
     } else {
