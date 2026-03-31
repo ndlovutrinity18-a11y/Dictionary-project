@@ -12,7 +12,7 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>This project was built by Trinity Ndlovu and is open-sourced on <a href="https://github.com/trinityndlovu/dictionary" target="_blank" rel="noopener noreferrer">GitHub</a></footer>
+        <footer>This project was built by <a href="https://github.com/ndlovutrinity18-a11y" target="_blank" rel="noopener noreferrer">Trinity Ndlovu</a> and is open-sourced on <a href="https://github.com/ndlovutrinity18-a11y/Dictionary-project" target="_blank" rel="noopener noreferrer">GitHub</a></footer>
         </div>
     </div>
   )

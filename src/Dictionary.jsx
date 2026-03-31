@@ -51,12 +51,9 @@ if(loaded){
   return (
     <div className="Dictionary">
       <section>
-    
         <form onSubmit={handleSubmit}>
-          <input type="search" placeholder="Enter a word..." onChange={handleKeywordChange} defaultValue={keyword}/>
-          <button type="submit">Search</button>
+          <input type="search" placeholder="Enter a word..." onChange={handleKeywordChange} defaultValue={keyword}/> 
         </form>
-      
         <div className="hint">
           Suggested word: Software, Sunrise, Pilot
         </div>

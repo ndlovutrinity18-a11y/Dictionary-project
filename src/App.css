@@ -9,40 +9,52 @@ body{
     margin: 0;
     padding: 0;
 }
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    .App {
+        padding: 10px;
+        max-width: 100%;
+    }
+        .Dictionary {
+            padding: 10px;
+            max-width: 100%;
+        }
+}
+
 .App {
-    max-width: 960px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
 }
-section{
+.Dictionary {
     background: rgb(207, 248, 218);
-    padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
 
+}
+section{
+    box-shadow:0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    border-radius: 8px;
 }
 .hint{
     opacity:0.5;
     font-size: 12px;
     font-style: oblique;
 }
-form{
-    display: flex;
-    gap:20px;
-}
-input[type="search"]{
-    flex: 1;
+
+input{
     padding: 10px;
+    font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    width: 90%;
+    margin-right: 10px;
 }
-button{
-    background: #ffffff;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    opacity:0.5;
-}
+
+
 h4{
     font-size: 24px;
     line-height: 1.5;
