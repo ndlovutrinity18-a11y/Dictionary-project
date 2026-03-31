@@ -1,7 +1,6 @@
 import React from 'react';
 import Synonyms from './Synonyms';
 export default function Meaning(props){
-    console.log( props.meanings);
 let meaning = props.meanings;    
     return (
         <div className= "Meaning">
